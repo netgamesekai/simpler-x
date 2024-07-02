@@ -1,0 +1,42 @@
+[
+  {
+    "id": "home-timeline-recommended",
+    "name": "홈 타임라인 - 추천",
+    "css": "[aria-label=\"홈 타임라인\"]   >div>div>div>nav[role=\"navigation\"]:not([aria-label]) [data-testid=\"ScrollSnap-prevButtonWrapper\"],  [aria-label=\"홈 타임라인\"] >div>div>div>nav[role=\"navigation\"]:not([aria-label]) [role=\"tablist\"] > div:first-child{display:none;}"
+  },
+  {
+    "id": "left-side-grok",
+    "name": "왼쪽 사이드 - 그록",
+    "css": "header[role=\"banner\"] nav[role=\"navigation\"] > [aria-label=\"그록\"]{display:none;}"
+  },
+  {
+    "id": "left-side-community",
+    "name": "왼쪽 사이드 - 커뮤니티",
+    "css": "header[role=\"banner\"] nav[role=\"navigation\"] > [aria-label=\"커뮤니티\"]{display:none;}"
+  },
+  {
+    "id": "left-side-premium",
+    "name": "왼쪽 사이드 - Premium",
+    "css": "header[role=\"banner\"] nav[role=\"navigation\"] > [aria-label=\"Premium\"]{display:none;}"
+  },
+  {
+    "id": "left-side-verified-organisation",
+    "name": "왼쪽 사이드 - 인증된 조직",
+    "css": "header[role=\"banner\"] nav[role=\"navigation\"] >  [aria-label=\"인증된 조직\"]{display:none;}"
+  },
+  {
+    "id": "right-side-premium",
+    "name": "오른쪽 사이드 - Premium 구독하기",
+    "css": "[aria-label=\"실시간 트렌드\"] div:has(>[aria-label=\"Premium 구독하기\"]) {display:none;}"
+  },
+  {
+    "id": "right-side-trending",
+    "name": "오른쪽 사이드 - 실시간 트렌드",
+    "css": "[aria-label=\"실시간 트렌드\"] section:has(>[aria-label=\"타임라인: 실시간 트렌드\"]) {display:none;}"
+  },
+  {
+    "id": "right-side-follow-recommended",
+    "name": "오른쪽 사이드 - 팔로우 추천",
+    "css": "[aria-label=\"실시간 트렌드\"] div:has(>div>aside[aria-label=\"팔로우 추천\"]) {display:none;}"
+  }
+]
